@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class temperatura {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -11,18 +11,13 @@ public class temperatura {
         System.out.println("Digite a temperatura em graus Celsius: ");
         temp = sc.nextDouble();
 
-        if (temp >= 30){
+        if (temp >= 30) {
             System.out.println("Quente!");
-        }
-
-        else if (temp >= 15){
+        } else if (temp >= 15) {
             System.out.println("Agradável");
-        }
-
-		else {
+        } else {
             System.out.println("Frio");
         }
-
 
 
     }
