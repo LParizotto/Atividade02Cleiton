@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class varificacaologin {
+public class verificacaologin {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -18,8 +19,10 @@ public class varificacaologin {
 
         if (primeira.equals(user) && segunda.equals(password)) {
             System.out.println("Login com sucesso!");
-        }else if(primeira!=(user) && segunda!=(password)){
+        }else if(primeira != (user) && segunda != (password)){
             System.out.println("Erro no login");
         }
     }
 }
+
+
