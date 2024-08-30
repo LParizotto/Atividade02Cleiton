@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+public class verificacaoidade {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -14,4 +15,5 @@ public class Main {
         }
 
     }
+
 }
