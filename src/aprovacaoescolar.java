@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class AprovacaoEscolar {
+public class aprovacaoescolar {
 
     public static void main (String[] args){
 
